@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="services.css">
+    <script src="web.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Şirket İsmi</h1>
+            <nav>
+                <ul>
+                    <li><a href="web.html">Ana Sayfa</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="contact.html" class="active">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="contact">
+        <div class="container">
+            <h2>Bizimle İletişime Geçin</h2>
+            <p>Size en kısa sürede dönüş yapabilmemiz için aşağıdaki formu doldurabilirsiniz.</p>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Adınız:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="age">Yaşınız:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-Posta Adresiniz:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone">Telefon Numaranız:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Mesajınız:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Gönder</button>
+            </form>
+            
+            <div class="discord-link">
+                <h3>Bize Discord Üzerinden Ulaşın</h3>
+                <a href="https://discord.gg/your-server-link" target="_blank" class="discord-button">
+                    <i class="fab fa-discord"></i> Discord Sunucumuza Katılın
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Şirket İsmi. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+</body>
+</html>
